@@ -14,7 +14,7 @@ const Section1 = () => {
             backgroundPosition={'center center'}
             mb={'10px'}
         >
-            <Box className="heroContent" textAlign={'center'} pt={'50px'}>
+            <Box className="heroContent" textAlign={'center'} pt={'70px'}>
                 <Heading>iPhone 15 Pro</Heading>
                 <Text>Titanium. So strong. So light. So pro.</Text>
                 <Stack direction={'row'} color={'#2A97FB'} justify={'center'}>
