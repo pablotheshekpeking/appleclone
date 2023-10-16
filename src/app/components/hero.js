@@ -7,13 +7,13 @@ const Hero = () => {
         <Stack
             width={'100%'}
             m={'auto'}
-            minH={['60vh', '60vh', '80vh', '80vh']}
+            minH={['70vh', '70vh', '80vh', '80vh']}
             color={'white'}
             backgroundImage={'/15pro.png'}
             backgroundSize={'cover'}
             backgroundPosition={'center center'}
         >
-            <Box className="heroContent" textAlign={'center'} pt={'100px'}>
+            <Box className="heroContent" textAlign={'center'} pt={'50px'}>
                 <Heading>iPhone 15 Pro</Heading>
                 <Text>Titanium. So strong. So light. So pro.</Text>
                 <Stack direction={'row'} color={'blue'} justify={'center'}>
