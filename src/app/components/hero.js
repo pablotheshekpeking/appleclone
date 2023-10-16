@@ -13,7 +13,7 @@ const Hero = () => {
             backgroundSize={'cover'}
             backgroundPosition={'center center'}
         >
-            <Box className="heroContent" textAlign={'center'}>
+            <Box className="heroContent" textAlign={'center'} pt={'100px'}>
                 <Heading>iPhone 15 Pro</Heading>
                 <Text>Titanium. So strong. So light. So pro.</Text>
                 <Stack direction={'row'} color={'blue'} justify={'center'}>
