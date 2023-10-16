@@ -16,9 +16,9 @@ const Hero = () => {
             <Box className="heroContent" textAlign={'center'} pt={'50px'}>
                 <Heading>iPhone 15 Pro</Heading>
                 <Text>Titanium. So strong. So light. So pro.</Text>
-                <Stack direction={'row'} color={'blue'} justify={'center'}>
-                    <Text>Learn More </Text>
-                    <Text>Buy</Text>
+                <Stack direction={'row'} color={'#2A97FB'} justify={'center'}>
+                    <Text cursor={'pointer'}>Learn More </Text>
+                    <Text cursor={'pointer'}>Buy</Text>
                 </Stack>
             </Box>
         </Stack>

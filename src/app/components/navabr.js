@@ -27,11 +27,11 @@ export default function Navbar() {
 
     return (
         <>
-        <Stack direction={'row'} w={'100%'} bg={'black'} color={'white'}>
+        <Stack direction={'row'} w={'100%'} bg={'#121112'} color={'white'}>
         <Box w={'10%'}></Box>
         <Box w={'80%'}>
             <Flex
-                bg={'black'}
+                bg={'#121112'}
                 m={'auto'}
                 color={'white'}
                 minH={'60px'}
@@ -78,7 +78,7 @@ export default function Navbar() {
 const DesktopNav = () => {
     const linkColor = 'white';
     const linkHoverColor = 'blue';
-    const popoverContentBgColor = 'black';
+    const popoverContentBgColor = '#121112';
 
     return (
         <Stack direction={'row'} spacing={4}>
@@ -172,18 +172,18 @@ const MobileNavItem = ({ label, children, href }) => {
     const { isOpen, onToggle } = useDisclosure();
 
     return (
-        <Stack spacing={4} onClick={children && onToggle} bg={'black'}>
+        <Stack spacing={4} onClick={children && onToggle} bg={'#121112'}>
             <Box
                 py={2}
                 as="a"
                 href={href ?? '#'}
                 justifyContent="space-between"
                 alignItems="center"
-                bg={'black'}
+                bg={'#121112'}
                 _hover={{
                     textDecoration: 'none',
                 }}>
-                <Text fontWeight={600} color={'white'} bg={'black'}>
+                <Text fontWeight={600} color={'white'} bg={'#121112'}>
                     {label}
                 </Text>
                 {children && (
@@ -201,7 +201,7 @@ const MobileNavItem = ({ label, children, href }) => {
                 <Stack
                     mt={2}
                     pl={4}
-                    bg={'black'}
+                    bg={'#121112'}
                     borderLeft={1}
                     borderStyle={'solid'}
                     align={'start'}>
