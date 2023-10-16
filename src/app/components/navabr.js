@@ -186,7 +186,7 @@ const MobileNavItem = ({ label, children, href }) => {
                 _hover={{
                     textDecoration: 'none',
                 }}>
-                <Text fontWeight={600} color={'white'}>
+                <Text fontWeight={600} color={'white'} bg={'black'}>
                     {label}
                 </Text>
                 {children && (
