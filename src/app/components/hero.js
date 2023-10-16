@@ -10,7 +10,14 @@ const Hero = () => {
         backgroundImage={'/15pro.png'}
         backgroundSize={'cover'}
         backgroundPosition={'center center'}
-        ></Stack>
+        >
+            <Heading>iPhone 15 Pro</Heading>
+            <Text>Titanium. So strong. So light. So pro.</Text>
+            <Stack color={'blue'}>
+                <Text>Learn More </Text>
+                <Text>Buy</Text>
+            </Stack>
+        </Stack>
      );
 }
  
