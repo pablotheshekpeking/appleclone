@@ -27,7 +27,7 @@ export default function Navbar() {
 
     return (
         <>
-        <Stack direction={'row'} w={'100%'} bg={'#121112'} color={'white'}>
+        <Stack direction={'row'} w={'100%'} bg={'#121112'} color={'white'} position={'fixed'} top={'0px'}>
         <Box w={'10%'}></Box>
         <Box w={'80%'}>
             <Flex
@@ -81,7 +81,7 @@ const DesktopNav = () => {
     const popoverContentBgColor = '#121112';
 
     return (
-        <Stack direction={'row'} spacing={4}>
+        <Stack direction={'row'} spacing={4} position={'fixed'} top={'0px'}>
             {NAV_ITEMS.map((navItem) => (
                 <Box key={navItem.label}> 
                     <Popover trigger={'hover'} placement={'bottom-start'}>
@@ -160,7 +160,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
 
 const MobileNav = () => {
     return (
-        <Stack bg={useColorModeValue('white', 'gray.800')} p={4} display={{ md: 'none' }}>
+        <Stack bg={useColorModeValue('white', 'gray.800')} p={4} display={{ md: 'none' }} position={'fixed'} top={'0px'}>
             {NAV_ITEMS.map((navItem) => (
                 <MobileNavItem key={navItem.label} {...navItem} />
             ))}
