@@ -61,7 +61,7 @@ export default function Navbar() {
                     display={{ base: 'flex', md: 'none' }}>
                     <IconButton
                         onClick={onToggle}
-                        icon={isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />}
+                        icon={isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} color={'white'} />}
                         variant={'ghost'}
                         aria-label={'Toggle Navigation'}
                     />
@@ -175,17 +175,18 @@ const MobileNavItem = ({ label, children, href }) => {
     const { isOpen, onToggle } = useDisclosure();
 
     return (
-        <Stack spacing={4} onClick={children && onToggle}>
+        <Stack spacing={4} onClick={children && onToggle} bg={'black'}>
             <Box
                 py={2}
                 as="a"
                 href={href ?? '#'}
                 justifyContent="space-between"
                 alignItems="center"
+                bg={'black'}
                 _hover={{
                     textDecoration: 'none',
                 }}>
-                <Text fontWeight={600} color={useColorModeValue('gray.600', 'gray.200')}>
+                <Text fontWeight={600} color={'white'}>
                     {label}
                 </Text>
                 {children && (
@@ -203,9 +204,9 @@ const MobileNavItem = ({ label, children, href }) => {
                 <Stack
                     mt={2}
                     pl={4}
+                    bg={'black'}
                     borderLeft={1}
                     borderStyle={'solid'}
-                    borderColor={useColorModeValue('gray.200', 'gray.700')}
                     align={'start'}>
                     {children &&
                         children.map((child) => (
