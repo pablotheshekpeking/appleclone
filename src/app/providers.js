@@ -10,7 +10,7 @@ export function Providers({ children }) {
   return (
     <CacheProvider>
       <ChakraProvider>
-        <Navbar />
+        <Navbar style={{postion: 'fixed', top:'0px'}} />
 
         <Section1 />
 
