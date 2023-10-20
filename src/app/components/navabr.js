@@ -188,6 +188,7 @@ const MobileNavItem = ({ label, children, href }) => {
                 </Text>
                 {children && (
                     <Icon
+                        float={'right'}
                         as={ChevronDownIcon}
                         transition={'all .25s ease-in-out'}
                         transform={isOpen ? 'rotate(180deg)' : ''}
