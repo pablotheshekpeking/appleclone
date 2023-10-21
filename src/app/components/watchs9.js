@@ -7,7 +7,7 @@ const Watchs9 = () => {
         
 
         <>
-        <Box className="heroContent" textAlign={'center'} pt={'50px'} w={'100%'} bg={'black'}>
+        <Box className="heroContent" textAlign={'center'} pt={'50px'} w={'100%'} bg={'black'} olor={'white'}>
             <Heading fontSize={'30px'}>WATCH</Heading><Text fontSize={'15px'} color={'#D23D29'}>SERIES 9</Text>
             <Text fontSize={['', '', '25px', '25px']}>Smarter. Brighter. Mightier.</Text>
             <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={['', '', '20px', '20px']}>
@@ -15,7 +15,7 @@ const Watchs9 = () => {
                 <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Buy</Text>
             </Stack>
         </Box>
-        <Img src="/series9.webp" w={'100%'} h={'auto'} />
+        <Img src="/series9.webp" w={'100%'} h={['50vh', '50vh', '80vh', '80vh']} />
         </>
     );
 }
