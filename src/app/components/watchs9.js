@@ -14,11 +14,11 @@ const Watchs9 = () => {
             backgroundPosition={'bottom bottom'}
             mb={'10px'}
         >
-            <Box className="heroContent" textAlign={'center'} pt={'70px'}>
-                <Heading>WATCH</Heading>
+            <Box className="heroContent" textAlign={'center'} pt={'50px'}>
+                <Heading fontSize={'30px'}>WATCH</Heading>
                 <Text fontSize={'15px'} color={'#D23D29'}>SERIES 9</Text>
-                <Text>Smarter. Brighter. Mightier.</Text>
-                <Stack direction={'row'} color={'#2A97FB'} justify={'center'}>
+                <Text fontSize={'25px'}>Smarter. Brighter. Mightier.</Text>
+                <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={'20px'}>
                     <Text cursor={'pointer'} _hover={{ textDecoration: 'underline',}}>Learn More </Text>
                     <Text cursor={'pointer'} _hover={{ textDecoration: 'underline',}}>Buy</Text>
                 </Stack>
