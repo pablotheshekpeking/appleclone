@@ -32,7 +32,7 @@ const Row3 = () => {
                             <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Apply Now</Text>
                         </Stack>
                     </Box>
-                    <Img src="/card.webp" w={'100%'} h={['auto', 'auto', '460px',  '460px']} mb={'10px'} />
+                    <Img src="/card.webp" w={'100%'} h={['auto', 'auto', '440px',  '440px']} mb={'10px'} />
                 </>
             </Box>
         </Stack>
