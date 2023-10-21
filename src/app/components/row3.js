@@ -11,7 +11,7 @@ const Row3 = () => {
 
             <Box w={['100%', '100%', '50%', '50%']} m={['', '', '10px', '10px']}>
                 <>
-                    <Box className="heroContent" textAlign={'center'} pt={'70px'} bg={'#FAFAFA'}>
+                    <Box className="heroContent" textAlign={'center'} pt={'70px'} bg={'white'}>
                         <Heading fontSize={'30px'}>Trade In</Heading>
                         <Text fontSize={['', '', '25px', '25px']}>Get $200-$650 in store credit when you trade in iPhone 11 or higher.</Text>
                         <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={['', '', '20px', '20px']}>
@@ -24,7 +24,7 @@ const Row3 = () => {
 
             <Box w={['100%', '100%', '50%', '50%']} m={['', '', '10px', '10px']}>
                 <>
-                    <Box className="heroContent" textAlign={'center'} pt={'70px'} bg={'black'} color={'white'}>
+                    <Box className="heroContent" textAlign={'center'} pt={'70px'} bg={'#fafafa'} color={'black'}>
                     <Heading fontSize={'30px'}>Card</Heading>
                         <Text fontSize={['', '', '25px', '25px']}>Get up to 3% cash back with every purchase</Text>
                         <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={['', '', '20px', '20px']}>
