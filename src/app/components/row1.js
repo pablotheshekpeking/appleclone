@@ -25,7 +25,7 @@ const Row1 = () => {
 
             <Box w={['100%', '100%', '50%', '50%']} m={'10px'}>
                 <Stack
-                minH={'70vh'}
+                minH={'60vh'}
                     backgroundImage={'/visionpro.png'}
                     backgroundSize={'cover'}
                     backgroundPosition={'center center'}
