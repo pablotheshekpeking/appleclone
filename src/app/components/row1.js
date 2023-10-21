@@ -7,8 +7,9 @@ const Row1 = () => {
         <Stack
             direction={['column', 'column', 'row', 'row']}
             m={'10px auto'}
+            w={'100%'}
         >
-            <Box>
+            <Box w={'50%'}>
                 <Stack
                 backgroundImage={'series9.webp'}
                 backgroundSize={'cover'}
@@ -24,8 +25,8 @@ const Row1 = () => {
                 </Box>
                 </Stack>
             </Box>
-            
-            <Box>
+
+            <Box w={'50%'}>
                 <Stack
                 backgroundImage={'series9.webp'}
                 backgroundSize={'cover'}
