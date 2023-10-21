@@ -9,7 +9,7 @@ const Row1 = () => {
             m={'10px auto'}
             w={'100%'}
         >
-            <Box w={['100%', '100%', '50%', '50%']}>
+            <Box w={['100%', '100%', '50%', '50%']} m={'10px'}>
                 <>
                     <Box className="heroContent" textAlign={'center'} pt={'70px'} bg={'#FAFAFA'}>
                         <Heading fontSize={'30px'}>iPad</Heading>
@@ -23,9 +23,9 @@ const Row1 = () => {
                 </>
             </Box>
 
-            <Box w={['100%', '100%', '50%', '50%']}>
+            <Box w={['100%', '100%', '50%', '50%']} m={'10px'}>
                 <Stack
-                minH={'50vh'}
+                minH={'70vh'}
                     backgroundImage={'/visionpro.png'}
                     backgroundSize={'cover'}
                     backgroundPosition={'center center'}
