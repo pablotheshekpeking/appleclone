@@ -15,10 +15,10 @@ const Watchs9 = () => {
             mb={'10px'}
         >
             <Box className="heroContent" textAlign={'center'} pt={'50px'}>
-                <Heading fontSize={'30px'}>WATCH</Heading>
+                <Heading fontSize={['', '', '30px', '30px']}>WATCH</Heading>
                 <Text fontSize={'15px'} color={'#D23D29'}>SERIES 9</Text>
                 <Text fontSize={['', '', '25px', '25px']}>Smarter. Brighter. Mightier.</Text>
-                <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={'20px'}>
+                <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={['',  '', '20px', '20px']}>
                     <Text cursor={'pointer'} _hover={{ textDecoration: 'underline',}}>Learn More </Text>
                     <Text cursor={'pointer'} _hover={{ textDecoration: 'underline',}}>Buy</Text>
                 </Stack>
