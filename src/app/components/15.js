@@ -11,6 +11,7 @@ const Section2 = () => {
             backgroundImage={'/15.avif'}
             backgroundSize={'cover'}
             backgroundPosition={'center center'}
+            mb={'10px'}
         >
             <Box className="heroContent" textAlign={'center'} pt={'50px'}>
                 <Heading>iPhone 15 </Heading>
