@@ -9,7 +9,7 @@ const Row2 = () => {
             w={'100%'}
         >
 
-            <Box w={['100%', '100%', '50%', '50%']} m={'10px'}>
+            <Box w={['100%', '100%', '50%', '50%']} m={'10px'} maxH={'66vh'}>
                 <>
                     <Box className="heroContent" textAlign={'center'} pt={'70px'} bg={'#FAFAFA'}>
                         <Heading fontSize={'30px'}>MacBook Air 15"</Heading>
