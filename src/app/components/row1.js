@@ -11,7 +11,7 @@ const Row1 = () => {
         >
             <Box w={['100%', '100%', '50%', '50%']}>
                 <>
-                    <Box className="heroContent" textAlign={'center'} pt={'70px'}>
+                    <Box className="heroContent" textAlign={'center'} pt={'70px'} bg={'#FAFAFA'}>
                         <Heading fontSize={'30px'}>iPad</Heading>
                         <Text fontSize={['', '', '25px', '25px']}>Lovable. Drawable. Magical.</Text>
                         <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={['', '', '20px', '20px']}>
@@ -25,6 +25,7 @@ const Row1 = () => {
 
             <Box w={['100%', '100%', '50%', '50%']}>
                 <Stack
+                minH={'50vh'}
                     backgroundImage={'/visionpro.png'}
                     backgroundSize={'cover'}
                     backgroundPosition={'center center'}
