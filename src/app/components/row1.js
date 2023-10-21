@@ -33,7 +33,7 @@ const Row1 = () => {
                     <Box className="heroContent" textAlign={'center'} pt={'370px'}>
                         <Heading fontSize={'30px'}>Vision Pro</Heading>
                         <Text fontSize={['', '', '25px', '25px']}>Welcome to the era of spacial computing</Text>
-                        <Text color={'#dddddd'}>Availabe early next year in the U.S</Text>
+                        <Text color={'#9D9DA0'}>Availabe early next year in the U.S</Text>
                         <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={['', '', '20px', '20px']}>
                             <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Learn More </Text>
                         </Stack>
