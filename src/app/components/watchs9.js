@@ -16,7 +16,7 @@ const Watchs9 = () => {
                 <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Buy</Text>
             </Stack>
         </Box>
-        <Img src="/series9.webp" w={'100%'} h={'auto'} />
+        <Img src="/series9.webp" w={'100%'} h={'auto'} mb={'10px'} />
         </>
     );
 }
