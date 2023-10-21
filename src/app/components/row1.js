@@ -8,7 +8,7 @@ const Row1 = () => {
             direction={['column', 'column', 'row', 'row']}
             w={'100%'}
         >
-            <Box w={['100%', '100%', '50%', '50%']} m={'10px'}>
+            <Box w={['100%', '100%', '50%', '50%']} m={['', '', '10px', '10px']}>
                 <>
                     <Box className="heroContent" textAlign={'center'} pt={'70px'} bg={'#FAFAFA'}>
                         <Heading fontSize={'30px'}>iPad</Heading>
@@ -22,7 +22,7 @@ const Row1 = () => {
                 </>
             </Box>
 
-            <Box w={['100%', '100%', '50%', '50%']} m={'10px'}>
+            <Box w={['100%', '100%', '50%', '50%']} m={['', '', '10px', '10px']}>
                 <Stack
                 minH={'66vh'}
                     backgroundImage={'/visionpro.png'}
