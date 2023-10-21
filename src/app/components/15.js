@@ -7,7 +7,7 @@ const Section2 = () => {
         <Stack
             width={'100%'}
             m={'auto'}
-            minH={['70vh', '70vh', '80vh', '80vh']}
+            minH={['50vh', '50vh', '80vh', '80vh']}
             backgroundImage={'/15.avif'}
             backgroundSize={'cover'}
             backgroundPosition={'center center'}

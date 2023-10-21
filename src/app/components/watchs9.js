@@ -7,11 +7,11 @@ const Watchs9 = () => {
         <Stack
             width={'100%'}
             m={'auto'}
-            minH={['70vh', '70vh', '80vh', '80vh']}
+            minH={['50vh', '50vh', '80vh', '80vh']}
             color={'white'}
             backgroundImage={'/series9.webp'}
             backgroundSize={'cover'}
-            backgroundPosition={'bottom bottom'}
+            backgroundPosition={'center center'}
             mb={'10px'}
         >
             <Box className="heroContent" textAlign={'center'} pt={'50px'}>
