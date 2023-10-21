@@ -14,11 +14,11 @@ const Section2 = () => {
             mb={'10px'}
         >
             <Box className="heroContent" textAlign={'center'} pt={'50px'}>
-                <Heading>iPhone 15 </Heading>
-                <Text>New camera. New design. Newphoria.</Text>
-                <Stack direction={'row'} color={'#2A97FB'} justify={'center'}>
-                    <Text cursor={'pointer'} _hover={{ textDecoration: 'underline',}}>Learn More </Text>
-                    <Text cursor={'pointer'} _hover={{ textDecoration: 'underline',}}>Buy</Text>
+                <Heading fontSize={'30px'}>iPhone 15 </Heading>
+                <Text fontSize={'25px'}>New camera. New design. Newphoria.</Text>
+                <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={'20px'}>
+                    <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Learn More </Text>
+                    <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Buy</Text>
                 </Stack>
             </Box>
         </Stack>
