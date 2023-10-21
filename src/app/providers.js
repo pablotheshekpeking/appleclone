@@ -7,6 +7,7 @@ import Section1 from './components/15pro';
 import Section2 from './components/15';
 import Watchs9 from './components/watchs9';
 import Row1 from './components/row1';
+import Row2 from './components/row2';
 
 export function Providers({ children }) {
   return (
@@ -21,6 +22,8 @@ export function Providers({ children }) {
         <Watchs9 />
 
         <Row1 />
+
+        <Row2 />
       </ChakraProvider>
     </CacheProvider>
   );
