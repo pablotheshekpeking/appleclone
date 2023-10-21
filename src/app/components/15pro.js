@@ -16,7 +16,7 @@ const Section1 = () => {
         >
             <Box className="heroContent" textAlign={'center'} pt={'70px'}>
                 <Heading fontSize={'30px'}>iPhone 15 Pro</Heading>
-                <Text fontSize={'25px'}>Titanium. So strong. So light. So pro.</Text>
+                <Text fontSize={['', '', '25px', '25px']}>Titanium. So strong. So light. So pro.</Text>
                 <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={'20px'}>
                     <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Learn More </Text>
                     <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Buy</Text>
