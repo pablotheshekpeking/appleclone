@@ -25,12 +25,12 @@ const Row1 = () => {
 
             <Box w={['100%', '100%', '50%', '50%']} m={'10px'}>
                 <Stack
-                minH={'67vh'}
+                minH={'66vh'}
                     backgroundImage={'/visionpro.png'}
                     backgroundSize={'cover'}
                     backgroundPosition={'center center'}
                 >
-                    <Box className="heroContent" textAlign={'center'} pt={'70px'}>
+                    <Box className="heroContent" textAlign={'center'} pt={'170px'}>
                         <Heading fontSize={'30px'}>Vision Pro</Heading>
                         <Text fontSize={['', '', '25px', '25px']}>Welcome to the era of spacial computing</Text>
                         <Text color={'#dddddd'}>Availabe early next year in the U.S</Text>
