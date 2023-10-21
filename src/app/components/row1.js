@@ -9,37 +9,34 @@ const Row1 = () => {
             m={'10px auto'}
             w={'100%'}
         >
-            <Box w={'50%'}>
-                <Stack
-                backgroundImage={'series9.webp'}
-                backgroundSize={'cover'}
-                backgroundPosition={'center center'}
-                >
-                <Box className="heroContent" textAlign={'center'} pt={'70px'}>
-                    <Heading fontSize={'30px'}>iPhone 15 Pro</Heading>
-                    <Text fontSize={['', '', '25px', '25px']}>Titanium. So strong. So light. So pro.</Text>
-                    <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={['', '', '20px', '20px']}>
-                        <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Learn More </Text>
-                        <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Buy</Text>
-                    </Stack>
-                </Box>
-                </Stack>
+            <Box w={['100%', '100%', '50%', '50%']}>
+                <>
+                    <Box className="heroContent" textAlign={'center'} pt={'70px'}>
+                        <Heading fontSize={'30px'}>iPad</Heading>
+                        <Text fontSize={['', '', '25px', '25px']}>Lovable. Drawable. Magical.</Text>
+                        <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={['', '', '20px', '20px']}>
+                            <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Learn More </Text>
+                            <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Buy</Text>
+                        </Stack>
+                    </Box>
+                    <Img src="/ipad.jpg" w={'100%'} h={'auto'} mb={'10px'} />
+                </>
             </Box>
 
-            <Box w={'50%'}>
+            <Box w={['100%', '100%', '50%', '50%']}>
                 <Stack
-                backgroundImage={'series9.webp'}
-                backgroundSize={'cover'}
-                backgroundPosition={'center center'}
+                    backgroundImage={'/visionpro.png'}
+                    backgroundSize={'cover'}
+                    backgroundPosition={'center center'}
                 >
-                <Box className="heroContent" textAlign={'center'} pt={'70px'}>
-                    <Heading fontSize={'30px'}>iPhone 15 Pro</Heading>
-                    <Text fontSize={['', '', '25px', '25px']}>Titanium. So strong. So light. So pro.</Text>
-                    <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={['', '', '20px', '20px']}>
-                        <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Learn More </Text>
-                        <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Buy</Text>
-                    </Stack>
-                </Box>
+                    <Box className="heroContent" textAlign={'center'} pt={'70px'}>
+                        <Heading fontSize={'30px'}>Vision Pro</Heading>
+                        <Text fontSize={['', '', '25px', '25px']}>Welcome to the era of spacial computing</Text>
+                        <Text color={'#dddddd'}>Availabe early next year in the U.S</Text>
+                        <Stack direction={'row'} color={'#2A97FB'} justify={'center'} fontSize={['', '', '20px', '20px']}>
+                            <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Learn More </Text>
+                        </Stack>
+                    </Box>
                 </Stack>
             </Box>
         </Stack>
