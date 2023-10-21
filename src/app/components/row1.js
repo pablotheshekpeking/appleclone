@@ -30,7 +30,7 @@ const Row1 = () => {
                     backgroundSize={'cover'}
                     backgroundPosition={'center center'}
                 >
-                    <Box className="heroContent" textAlign={'center'} pt={'320px'}>
+                    <Box className="heroContent" textAlign={'center'} pt={'370px'}>
                         <Heading fontSize={'30px'}>Vision Pro</Heading>
                         <Text fontSize={['', '', '25px', '25px']}>Welcome to the era of spacial computing</Text>
                         <Text color={'#dddddd'}>Availabe early next year in the U.S</Text>
