@@ -19,7 +19,7 @@ const Row2 = () => {
                             <Text cursor={'pointer'} _hover={{ textDecoration: 'underline', }}>Buy</Text>
                         </Stack>
                     </Box>
-                    <Img src="/mac.jpg" w={'100%'} h={'480px'} mb={'10px'} />
+                    <Img src="/mac.jpg" w={'100%'} h={'460px'} mb={'10px'} />
                 </>
             </Box>
 
