@@ -29,7 +29,7 @@ const Row2 = () => {
             <Box w={['100%', '100%', '50%', '50%']} m={'10px'}>
                 <Stack
                     minH={'66vh'}
-                    backgroundImage={'/airpods.jpg'}
+                    backgroundImage={'/airpods.jpeg'}
                     backgroundSize={'cover'}
                     backgroundPosition={'center center'}
                 >
