@@ -5,6 +5,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import Navbar from './components/navabr';
 import Section1 from './components/15pro';
 import Section2 from './components/15';
+import Watchs9 from './components/watchs9';
 
 export function Providers({ children }) {
   return (
@@ -15,6 +16,8 @@ export function Providers({ children }) {
         <Section1 />
 
         <Section2 />
+
+        <Watchs9 />
       </ChakraProvider>
     </CacheProvider>
   );
